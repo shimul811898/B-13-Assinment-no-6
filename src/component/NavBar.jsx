@@ -25,9 +25,9 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end gap-5">
+      <div className="navbar-end gap-5 grid  lg:grid-cols-2">
         <div>
-          <p>login <i class="fa-solid fa-cart-shopping"></i></p>
+          <p className="md:display-none">login <i class="fa-solid fa-cart-shopping"></i></p>
         </div>
         <a className="btn bg-[rgb(127,66,255)] rounded-full text-white">Get Started</a>
       </div>

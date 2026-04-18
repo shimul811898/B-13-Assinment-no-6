@@ -6,7 +6,7 @@ const Transparent = () => {
                 <p className="text-[13px] text-[#627382]">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
             {/* Pricing Cards */}
-            <div className="grid grid-cols-3 gap-10 max-w-5xl mx-auto ">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-5xl mx-auto ">
 
                 {/* Starter Plan */}
                 <div className="bg-[#F2F2F2] space-y-4 p-6 rounded-lg mt-6">

@@ -1,4 +1,5 @@
 import BannerImage from "../assets/banner.png";
+import PlayImage from "../assets/play.png";
 
 const Banner = () => {
     return (
@@ -31,7 +32,7 @@ const Banner = () => {
                         <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] transition-all px-8 py-4 rounded-full font-semibold text-lg shadow-xl shadow-[#4F39F6] flex items-center gap-3 group text-white">
                            Explore Products</button>
                            <button className="border-2 border-[#4F39F6] text-[#4F39F6] hover:bg-[#4F39F6] hover:text-white transition-all px-8 py-4 rounded-full font-semibold text-lg flex items-center gap-3 group">
-                            <i class="fa-solid fa-play"></i> Watch Demo
+                            <img src={PlayImage} alt="" /> Watch Demo
                            </button>
                     </div>
 

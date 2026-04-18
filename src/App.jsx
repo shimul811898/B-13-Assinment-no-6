@@ -1,12 +1,11 @@
-
+import { useState } from "react";
 import Banner from "./component/Banner";
 import Navbar from "./component/NavBar";
 import Transparent from "./component/Transparent";
-
-
-import { useState } from "react";
 import Status from "./component/Status";
 import Hero from "./component/Hero";
+import Workflow from "./component/Workflow";
+import Footer from "./component/Footer";
 const App = () => {
   return (
     <>
@@ -19,6 +18,11 @@ const App = () => {
       <Hero />  
 
       <Transparent />
+
+      <Workflow />
+
+      <Footer />
+
 
     
     </>
