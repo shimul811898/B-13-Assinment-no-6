@@ -1,6 +1,7 @@
 
 import Banner from "./component/Banner";
 import Navbar from "./component/NavBar";
+import Transparent from "./component/Transparent";
 
 
 import { useState } from "react";
@@ -16,6 +17,8 @@ const App = () => {
       <Status />
 
       <Hero />  
+
+      <Transparent />
 
     
     </>

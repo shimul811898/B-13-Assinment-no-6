@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <div className="navbar justify-between mx-auto max-w-6xl">
+    <div className="navbar justify-between mx-auto max-w-5xl">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-xl">
           <h1 className="text-3xl font-bold text-[rgb(127,66,255)]" >DigiTools</h1>

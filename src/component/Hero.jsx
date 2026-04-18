@@ -10,7 +10,7 @@ const Hero = () => {
         <p className="text-[#627382] text-[12px]">Start using premium digital tools in minutes, not hours.</p>
       </div>
      {/* card section */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mb-9 mt-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-5xl mx-auto mb-9 mt-5">
       {/* card 1 */}
         <div className="bg-white  shadow px-10 py-15 rounded-lg ">
           <div className="flex justify-end -mt-9 -mr-5">
