@@ -1,6 +1,4 @@
-import UserImage from "../assets/user.png";
-import PackageImage from "../assets/package.png";
-import RocketImage from "../assets/rocket.png";
+
 
 const Hero = () => {
   return (
@@ -17,7 +15,7 @@ const Hero = () => {
             <p className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full w-8 h-8 text-center p-1 text-white font-bold ">01</p>
           </div>
           <div className="flex justify-center items-center bg-[#4F39F670] w-16 h-16 rounded-full mx-auto p-2">
-            <img src={UserImage} alt="User" />
+            <img src="assets/user.png" alt="User" />
           </div>
           <div className="text-center space-y-2 ">
             <h3 className="text-[24px] font-bold mt-3">Create Account</h3>
@@ -31,7 +29,7 @@ const Hero = () => {
             <p className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full w-8 h-8 text-center p-1 text-white font-bold ">02</p>
           </div>
           <div className="flex justify-center items-center bg-[#4F39F670] w-16 h-16 rounded-full mx-auto p-2">
-            <img src={PackageImage} alt="Package" />
+            <img src="assets/package.png" alt="Package" />
           </div>
           <div className="text-center space-y-2 ">
             <h3 className="text-[24px] font-bold mt-3">Choose Products</h3>
@@ -45,7 +43,7 @@ const Hero = () => {
             <p className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full w-8 h-8 text-center p-1 text-white font-bold ">03</p>
           </div>
           <div className="flex justify-center items-center bg-[#4F39F670] w-16 h-16 rounded-full mx-auto p-2">
-            <img src={RocketImage} alt="Rocket" />
+            <img src="assets/rocket.png" alt="Rocket" />
           </div>
           <div className="text-center space-y-2 ">
             <h3 className="text-[24px] font-bold mt-3">Start Creating</h3>

@@ -12,16 +12,11 @@ import Cart from "./component/Cart";
 import ModelCard from "./component/ModelCard";
 
 
+const  data = await fetch("/Models.json").then(res => res.json());
 
-const getModels = async () => {
-  const res = await fetch("/models.json");
-  return res.json();
-};
-
-const modelPromise = getModels();
 
 const App = () => {
-  const [activeTab, setActiveTab] = useState("models");
+  const [activeTab, setActiveTab] = useState("model");
   const [carts, setCarts] = useState([]);
 
   return (
@@ -49,7 +44,7 @@ const App = () => {
       </div>
 
 
-      {activeTab === "models" && (<Models modelPromise={modelPromise} carts={carts} setCarts={setCarts} />)}
+      {activeTab === "model" && (<Models data={data} carts={carts} setCarts={setCarts} />)}
       {activeTab === "cart" && (<Cart carts={carts} setCarts={setCarts} />)}
 
       <Hero />

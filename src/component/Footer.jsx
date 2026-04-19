@@ -1,6 +1,3 @@
-import InstagramImage from "../assets/instagram.png";
-import FacebookImage from "../assets/facebook.png";
-import TwitterImage from "../assets/twitter.png";
 
 
 const Footer = () => {
@@ -39,17 +36,17 @@ const Footer = () => {
 
                     <div className="grid grid-cols-3 gap-6">
                         <div className="bg-white rounded-full w-12 h-12 flex items-center justify-center">
-                            <img className="w-6 h-6" src={InstagramImage} alt="Instagram" />
+                            <img className="w-6 h-6" src="assets\Instagram.png" alt="Instagram" />
                         </div>
 
 
                         <div className="bg-white rounded-full w-12 h-12 flex items-center justify-center">
-                            <img className="w-6 h-6" src={FacebookImage} alt="Facebook" />
+                            <img className="w-6 h-6" src="assets/facebook.png" alt="Facebook" />
                         </div>
 
 
                         <div className="bg-white rounded-full w-12 h-12 flex items-center justify-center">
-                            <img className="w-6 h-6" src={TwitterImage} alt="Twitter" />
+                            <img className="w-6 h-6" src="assets/twitter.png" alt="Twitter" />
                         </div>
 
                     </div>

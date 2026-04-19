@@ -1,10 +1,9 @@
-import React from "react";
+
+import { useEffect, useState } from "react";
 import ModelCard from "./ModelCard";
-const Models = ({ modelPromise, carts, setCarts }) => {
-  const [models, setModels] = React.useState([]);
-  React.useEffect(() => {
-    modelPromise.then((data) => setModels(data));
-  }, [modelPromise]);
+
+const Models = ({ carts, setCarts , data }) => {
+
 
 
   return (
@@ -19,7 +18,7 @@ const Models = ({ modelPromise, carts, setCarts }) => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {models?.map((model) => (
+        {data?.map((model) => (
           <ModelCard
             key={model.id}
             model={model}

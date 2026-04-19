@@ -16,7 +16,9 @@ const ModelCard = ({ model, carts, setCarts }) => {
   return (
     <div className="bg-[#F2F2F2] p-6 rounded-xl flex flex-col justify-between h-full shadow-sm border border-zinc-200">
       <div className="space-y-4">
-        <div className="text-4xl">{model.icon}</div>
+        <div className="text-4xl">
+          <img src={model.icon} alt={model.name} />
+        </div>
         <div>
           <h4 className="text-2xl font-bold">{model.name}</h4>
           <p className="text-zinc-500 text-sm mt-1">{model.description}</p>
