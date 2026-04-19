@@ -23,6 +23,10 @@ const Status = () => {
           <p className="text-xl md:text-2xl font-medium opacity-80">Rating</p>
         </div>
       </div>
+
+      <div>
+        
+      </div>
     </div>
   );
 };
