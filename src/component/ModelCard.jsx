@@ -23,6 +23,31 @@ const ModelCard = ({ model, carts, setCarts }) => {
 
   return (
     <div className="bg-[#F2F2F2] p-6 rounded-xl flex flex-col justify-between h-full shadow-sm border border-zinc-200 hover:scale-105 transition duration-300 hover:shadow-[rgb(127,66,255)]">
+      <div className="h-fit">
+        <div className="flex justify-end">
+          <div>
+            <div
+              className={`${model.tag === "best-seller"
+                  ? "bg-[#FEF3C6]"
+                  : model.tag === "popular"
+                    ? " bg-[#9514FA70]"
+                    : " bg-green-300"
+                } rounded-full px-3 py-1 flex items-center justify-center`}
+            >
+              <span
+                className={`${model.tag === "best-seller"
+                    ? "text-[#BB4D00] "
+                    : model.tag.trim().toLowerCase() === "popular"
+                      ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent"
+                      : "text-green-600 "
+                  } `}
+              >
+                {model.tag}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="space-y-4">
         <div className="text-4xl">
           <img src={model.icon} alt={model.name} />

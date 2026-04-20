@@ -5,7 +5,7 @@
     "description": "Create professional resumes with AI-powered suggestions and templates.",
     "price": 9.99,
     "billing": "monthly",
-    "tag": "popular",
+    "tag": "best-seller",
     "features": [
       "100+ templates",
       "ATS optimization",
@@ -20,7 +20,7 @@
     "description": "Launch your personal portfolio website in minutes with modern designs.",
     "price": 49.99,
     "billing": "one-time",
-    "tag": "best",
+    "tag": "popular",
     "features": [
       "Responsive design",
       "Custom domain support",
@@ -65,7 +65,7 @@
     "description": "Improve your LinkedIn profile visibility with smart suggestions.",
     "price": 19.99,
     "billing": "one-time",
-    "tag": "best",
+    "tag": "best-seller",
     "features": [
       "Profile analysis",
       "Keyword optimization",
