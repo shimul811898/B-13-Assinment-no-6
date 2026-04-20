@@ -57,7 +57,7 @@ const Footer = () => {
                 <div className="max-w-5xl mx-auto px-4">
                     <hr className="border-t border-gray-700" />
                 </div>
-                <div className="grid sm:grid-cols-1 md:grid-cols-2 p-2 md:gap-60 mx-auto max-w-5xl text-gray-400 text-[16px]">
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 p-2 py-7 md:gap-60 mx-auto max-w-5xl text-gray-400 text-[16px]">
                     <div>
                         <p>© 2026 Digitools. All rights reserved.</p>
                     </div>

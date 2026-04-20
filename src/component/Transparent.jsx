@@ -6,10 +6,10 @@ const Transparent = () => {
                 <p className="text-[13px] text-[#627382]">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
             {/* Pricing Cards */}
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-5xl mx-auto ">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-5xl mx-auto  ">
 
                 {/* Starter Plan */}
-                <div className="bg-[#F2F2F2] space-y-4 p-6 rounded-lg mt-6">
+                <div className="bg-[#F2F2F2] space-y-4 p-6 rounded-lg mt-6 hover:scale-105 transition duration-300 hover:shadow-[rgb(127,66,255)]">
                     <div className="space-y-6">
                         <div>
                             <h4 className="text-2xl font-bold">Starter</h4>
@@ -32,7 +32,7 @@ const Transparent = () => {
 
                 {/* Pro Plan */}
                 <div>
-                    <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-lg mt-6">
+                    <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-lg mt-6 hover:scale-105 transition duration-300 hover:shadow-[rgb(127,66,255)]">
                         <div className="flex justify-center">
                             <h3 className="text-[#BB4D00] bg-[#FEF3C6] rounded-full py-2 px-2 text-center max-w-30 -mt-4">Most Popular</h3>
                         </div>
@@ -63,7 +63,7 @@ const Transparent = () => {
                 </div>
                 </div>
                 {/* Enterprise */}
-                <div className="bg-[#F2F2F2] space-y-4 p-6 rounded-lg mt-6">
+                <div className="bg-[#F2F2F2] space-y-4 p-6 rounded-lg mt-6 hover:scale-105 transition duration-300 hover:shadow-[rgb(127,66,255)]">
                     <div className="space-y-6">
                         <div>
                             <h4 className="text-2xl font-bold">Enterprise</h4>

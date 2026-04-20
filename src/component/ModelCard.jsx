@@ -14,7 +14,7 @@ const ModelCard = ({ model, carts, setCarts }) => {
   };
 
   return (
-    <div className="bg-[#F2F2F2] p-6 rounded-xl flex flex-col justify-between h-full shadow-sm border border-zinc-200 hover:scale-105 transition duration-300">
+    <div className="bg-[#F2F2F2] p-6 rounded-xl flex flex-col justify-between h-full shadow-sm border border-zinc-200 hover:scale-105 transition duration-300 hover:shadow-[rgb(127,66,255)]">
       <div className="space-y-4">
         <div className="text-4xl">
           <img src={model.icon} alt={model.name} />

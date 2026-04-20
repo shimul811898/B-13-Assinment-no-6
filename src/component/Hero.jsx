@@ -10,7 +10,7 @@ const Hero = () => {
      {/* card section */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-5xl mx-auto mb-9 mt-5">
       {/* card 1 */}
-        <div className="bg-white  shadow px-10 py-15 rounded-lg ">
+        <div className="bg-white  shadow px-10 py-15 rounded-lg hover:scale-105 transition duration-300 hover:shadow-[rgb(127,66,255)] ">
           <div className="flex justify-end -mt-9 -mr-5">
             <p className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full w-8 h-8 text-center p-1 text-white font-bold ">01</p>
           </div>
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
 
         {/* card 2 */}
-        <div className="bg-white  shadow px-10 py-15 rounded-lg ">
+        <div className="bg-white  shadow px-10 py-15 rounded-lg hover:scale-105 transition duration-300 hover:shadow-[rgb(127,66,255)] ">
           <div className="flex justify-end -mt-9 -mr-5">
             <p className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full w-8 h-8 text-center p-1 text-white font-bold ">02</p>
           </div>
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
 
         {/* card 3 */}
-        <div className="bg-white  shadow px-10 py-15 rounded-lg ">
+        <div className="bg-white  shadow px-10 py-15 rounded-lg hover:scale-105 transition duration-300 hover:shadow-[rgb(127,66,255)]">
           <div className="flex justify-end -mt-9 -mr-5">
             <p className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full w-8 h-8 text-center p-1 text-white font-bold ">03</p>
           </div>
