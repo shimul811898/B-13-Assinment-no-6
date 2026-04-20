@@ -1,16 +1,28 @@
-# React + Vite
+# 💡 DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧳 DigiTools – The Digital Toolbox for Everyone
 
-Currently, two official plugins are available:
+### 📊 Description
+* **DigiTools** is an all-in-one web toolkit website, offering fast and easy-to-use digital tools for everyone to use.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+### 📂 Technologies Used
+Technologies Used to Make the Website
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+* ![DaisyUI](https://img.shields.io/badge/daisyui-%235A0EF8.svg?style=for-the-badge&logo=daisyui&logoColor=white)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🤖 Features About the Website
+
+* **Digitools** Provides multiple useful online tools like image converters, text tools, and many more.
+* **Digitools** is a Simple and user-friendly toolkit website designed for easy use anywhere in the world.
+* **Digitools** do not requires installation it's — works directly in the browser It only requires an internet connection to work.
+
