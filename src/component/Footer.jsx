@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className="space-y-2">
                     <p className="text-lg font-semibold">Social Links</p>
 
-                    <div className="grid grid-cols-3 gap-6">
+                    <div className="grid sm:grid-cols-1  md:grid-cols-3 gap-6">
                         <div className="bg-white rounded-full w-12 h-12 flex items-center justify-center">
                             <img className="w-6 h-6" src="assets\Instagram.png" alt="Instagram" />
                         </div>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <div className="max-w-5xl mx-auto px-4">
                     <hr className="border-t border-gray-700" />
                 </div>
-                <div className="grid grid-cols-2 p-3 gap-60 mx-auto max-w-5xl text-gray-400 text-[16px]">
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 p-2 md:gap-60 mx-auto max-w-5xl text-gray-400 text-[16px]">
                     <div>
                         <p>© 2026 Digitools. All rights reserved.</p>
                     </div>

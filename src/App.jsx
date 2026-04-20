@@ -12,7 +12,7 @@ import Cart from "./component/Cart";
 import ModelCard from "./component/ModelCard";
 
 
-const  data = await fetch("/Models.json").then(res => res.json());
+const data = await fetch("/Models.json").then(res => res.json());
 
 
 const App = () => {
@@ -26,18 +26,25 @@ const App = () => {
       <Status />
 
 
-      <div className="tabs tabs-box justify-center bg-transparent ">
+      <div className="tabs  justify-center bg-transparent  ">
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40"
-          aria-label="Models"
+          className={`tab rounded-full w-40 hover:scale-90 transition duration-500 ${activeTab === "model"
+              ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
+              : "bg-gray-200 text-black"
+            }`}
+          aria-label="Products"
           onClick={() => setActiveTab("model")}
           defaultChecked />
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40"
+
+          className={`tab rounded-full w-40 hover:scale-90 transition duration-500 ${activeTab === "cart"
+              ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA]  text-white"
+              : "bg-gray-200 text-black"
+            }`}
           aria-label={`Cart (${carts.length})`}
           onClick={() => setActiveTab("cart")}
         />

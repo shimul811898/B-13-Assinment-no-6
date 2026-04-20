@@ -26,7 +26,7 @@ const Transparent = () => {
                         </div>
                     </div>
                     <div className="max-w-full mx-auto text-center mt-20">
-                        <button className="btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white px-20">Get Started Free</button>
+                        <button className="btn rounded-full  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white px-19 hover:scale-105 transition duration-300">Get Started Free</button>
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@ const Transparent = () => {
                 <div>
                     <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-lg mt-6">
                         <div className="flex justify-center">
-                            <h3 className="text-[#BB4D00] bg-[#FEF3C6] rounded-full py-1 px-3 text-center max-w-30 -mt-4">Most Popular</h3>
+                            <h3 className="text-[#BB4D00] bg-[#FEF3C6] rounded-full py-2 px-2 text-center max-w-30 -mt-4">Most Popular</h3>
                         </div>
                     <div className="space-y-4 p-6">
                         <div className="space-y-6">
@@ -54,8 +54,8 @@ const Transparent = () => {
                             <p className="text-[16px] text-white"><span className="text-white"><i class="fa-solid fa-check"></i></span> Advanced analytics</p>
                         </div>
                     </div>
-                    <button className="btn rounded-full px-20 bg-white">
-                        <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+                    <button className="btn rounded-full px-20 bg-white hover:scale-105 transition duration-300">
+                        <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
                             Start Pro Trial
                         </span>
                     </button>
@@ -81,7 +81,7 @@ const Transparent = () => {
                             <p className="text-[16px] text-[#627382]"><span className="text-green-600"><i class="fa-solid fa-check"></i></span> Custom branding</p>
                         </div>
                     </div>
-                    <div className="max-w-full mx-auto text-center mt-10">
+                    <div className="max-w-full mx-auto text-center mt-10 hover:scale-105 transition duration-300">
                         <button className="btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white px-20">Contact Sales</button>
                     </div>
                 </div>

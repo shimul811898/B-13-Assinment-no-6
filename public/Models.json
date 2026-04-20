@@ -74,23 +74,9 @@
     ],
     "icon": "/assets/social-media.png"
   },
+
   {
     "id": 6,
-    "name": "Mock Interview Simulator",
-    "description": "Practice interviews with AI-driven feedback and scoring.",
-    "price": 12.99,
-    "billing": "monthly",
-    "tag": "new",
-    "features": [
-      "Real interview questions",
-      "AI feedback",
-      "Score analysis",
-      "Video recording"
-    ],
-    "icon": "/assets/Play.png"
-  },
-  {
-    "id": 7,
     "name": "Freelancer Toolkit",
     "description": "All-in-one toolkit for freelancers to manage clients and projects.",
     "price": 29.99,
@@ -103,20 +89,6 @@
       "Time tracking"
     ],
     "icon": "/assets/package.png"
-  },
-  {
-    "id": 8,
-    "name": "Design Assets Bundle",
-    "description": "Access a huge library of icons, illustrations, and UI kits.",
-    "price": 59.99,
-    "billing": "one-time",
-    "tag": "best",
-    "features": [
-      "10,000+ assets",
-      "Commercial license",
-      "Regular updates",
-      "Multiple formats"
-    ],
-    "icon": "/assets/rocket.png"
   }
+  
 ]

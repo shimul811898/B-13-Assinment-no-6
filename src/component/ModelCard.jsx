@@ -10,11 +10,11 @@ const ModelCard = ({ model, carts, setCarts }) => {
     }
 
     setCarts([...carts, model]);
-    toast.success(`${model.name} added successfully!`);
+    toast.success("Item added to cart!");
   };
 
   return (
-    <div className="bg-[#F2F2F2] p-6 rounded-xl flex flex-col justify-between h-full shadow-sm border border-zinc-200">
+    <div className="bg-[#F2F2F2] p-6 rounded-xl flex flex-col justify-between h-full shadow-sm border border-zinc-200 hover:scale-105 transition duration-300">
       <div className="space-y-4">
         <div className="text-4xl">
           <img src={model.icon} alt={model.name} />

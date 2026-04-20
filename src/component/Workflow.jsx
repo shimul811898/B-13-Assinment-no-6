@@ -1,6 +1,6 @@
 const Workflow = () => {
     return (
-        <div className=" bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-center py-16 px-4 ">
+        <div className=" bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-center py-16 px-4  ">
             <div className="max-w-5xl mx-auto space-y-6">
                 <h1 className="text-3xl font-bold">Ready to Transform Your Workflow?</h1>
                 <p className="text-[16px]">Join thousands of professionals who are already using Digitools to work smarter.<br />Start your free trial today.</p>

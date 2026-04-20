@@ -29,7 +29,7 @@ const NavBar = () => {
         <div>
           <p className="md:display-none">login <i class="fa-solid fa-cart-shopping"></i></p>
         </div>
-        <a className="btn bg-[rgb(127,66,255)] rounded-full text-white">Get Started</a>
+        <a className="btn bg-[rgb(127,66,255)] rounded-full text-white p-2">Get Started</a>
       </div>
     </div>
   );
