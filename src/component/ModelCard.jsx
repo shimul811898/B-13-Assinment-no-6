@@ -1,8 +1,14 @@
+import { useState } from "react";
 import { toast } from "react-toastify";
 
 const ModelCard = ({ model, carts, setCarts }) => {
-  
+  const [buyNow, setBuyNow] = useState(false);
+
+
+
   const handleAddToCart = () => {
+    setBuyNow(true);
+
     const isExist = carts.find((item) => item.id === model.id);
 
     if (isExist) {
@@ -11,6 +17,8 @@ const ModelCard = ({ model, carts, setCarts }) => {
 
     setCarts([...carts, model]);
     toast.success("Item added to cart!");
+    return;
+
   };
 
   return (
@@ -23,7 +31,7 @@ const ModelCard = ({ model, carts, setCarts }) => {
           <h4 className="text-2xl font-bold">{model.name}</h4>
           <p className="text-zinc-500 text-sm mt-1">{model.description}</p>
         </div>
-        
+
         <div className="text-zinc-600">
           <span className="text-3xl font-bold text-black">${model.price}</span>/month
         </div>
@@ -37,11 +45,15 @@ const ModelCard = ({ model, carts, setCarts }) => {
         </div>
       </div>
 
-      <button 
+      <button
         onClick={handleAddToCart}
-        className="btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white mt-8 border-none hover:scale-105 transition-transform"
+        className={`btn rounded-full mt-8 border-none hover:scale-105 transition-transform 
+    ${buyNow
+            ? "bg-green-600 text-white"
+            : "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white"
+          }`}
       >
-        Get Started
+        <span>{buyNow ? "Added to Cart!" : "Buy Now"}</span>
       </button>
     </div>
   );
