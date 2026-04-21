@@ -26,13 +26,13 @@ const Cart = ({ carts, setCarts }) => {
          <div className="border border-zinc-200 p-4 rounded-lg">
            <div className="space-y-4">
             {carts.map((item) => (
-              <div key={item.id} className="flex items-center justify-between  p-4 rounded-lg bg-zinc-100 shadow-sm">
+              <div key={item.id} className="flex items-center justify-between  p-2 rounded-lg bg-zinc-100 shadow-sm">
                 <div className="flex items-center gap-4">
-                  <img src={item.icon} alt={item.name} className="w-16 h-16 object-contain" />
-                  <h2 className="text-xl font-bold">{item.name}</h2>
+                  <img src={`${item.icon}`} alt={item.name} className="w-8 h-8 " />
+                  <h4 className=" font-bold">{item.name}</h4>
                 </div>
-                <div className="flex items-center gap-6">
-                  <span className="text-2xl font-bold">${item.price}</span>
+                <div className="flex items-center gap-2">
+                  <span className="text-[12px] md:text-2xl font-bold">${item.price}</span>
                   <button onClick={() => removeCart(item.id)} className="btn text-red-500 hover:text-red-700 border-none bg-transparent hover:bg-transparent">
                     Remove
                     </button>

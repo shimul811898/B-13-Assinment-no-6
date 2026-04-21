@@ -12,7 +12,7 @@
       "Export to PDF",
       "AI content suggestions"
     ],
-    "icon": "/assets/writing_2327400 1.png"
+    "icon": "assets/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "SEO optimized",
       "Drag & drop builder"
     ],
-    "icon": "/assets/portfolio.png"
+    "icon": "assets/portfolio.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Download options",
       "Custom tone settings"
     ],
-    "icon": "/assets/design-tool.png"
+    "icon": "assets/design-tool.png"
   },
   {
     "id": 4,
@@ -57,11 +57,11 @@
       "Analytics dashboard",
       "Cloud sync"
     ],
-    "icon": "/assets/operation.png"
+    "icon": "assets/operation.png"
   },
   {
     "id": 5,
-    "name": "LinkedIn Optimization Tool",
+    "name": "LinkedIn Tool",
     "description": "Improve your LinkedIn profile visibility with smart suggestions.",
     "price": 19.99,
     "billing": "one-time",
@@ -72,7 +72,7 @@
       "Headline generator",
       "Performance insights"
     ],
-    "icon": "/assets/social-media.png"
+    "icon": "assets/social-media.png"
   },
 
   {
@@ -88,7 +88,7 @@
       "Client CRM",
       "Time tracking"
     ],
-    "icon": "/assets/package.png"
+    "icon": "assets/package.png"
   }
   
 ]
