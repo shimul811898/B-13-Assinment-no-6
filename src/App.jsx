@@ -21,12 +21,12 @@ const App = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar carts={carts} />
       <Banner />
       <Status />
 
 
-      <div className="tabs  justify-center bg-transparent  ">
+      <div className="tabs flex gap-4 justify-center bg-transparent  ">
         <input
           type="radio"
           name="my_tabs_1"
